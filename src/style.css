@@ -1,1 +1,15 @@
-/* styles go here */
+fieldset:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+.label--ib {
+  display: inline-block;
+}
+
+label:not(:last-of-type) {
+  margin-bottom: 10px;
+}
